@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	padding:0;
+	margin:0;
+}
+
+
+
+.container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.card{
+	background: white;
+	width:400px;
+	margin:30px;
+	padding: 30px;
+	border-radius: 15px;
+}
+.card-image{
+	height: 150px;
+	margin-bottom: 15px;
+	background-size: cover;
+	background-image: url("roblox.png");
+	border-radius: 15px 15px 0 0;
+}
+.card:hover{
+	background: rgb(229, 229, 229);
+	cursor:pointer;
+	transform:scale(1.03);
+}
+.Robux{
+	font-size: 30px;
+	color:green;
+}
+
+.Error{
+		font-size: 20px;
+	    color:red;
+}
+.btn1{
+	height: 50px;
+	width:100px;
+}
